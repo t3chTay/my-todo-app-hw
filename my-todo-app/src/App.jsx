@@ -74,7 +74,7 @@ function App() {
 
       {/* Form */}
       <form
-        onSubmit={handleSubmit} // handles form submission
+        onSubmit={handleSubmit} // handles form submission via enter key or button click
         style={{ display: "flex", marginBottom: "20px" }}
       >
         <input // input field for new todo
